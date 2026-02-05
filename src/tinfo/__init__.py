@@ -12,15 +12,15 @@ class confirm:
     if r == options1:
       oodr = input("Reconfirm your option,please")
       if oodr == options1:
-        eval(inputed_options1_handling)
-      else:
-        print("Please check your typing")
+        eval(1_handling)
+      elif oodr == options2:
+        eval(2_handling)
     elif r == options2:
       osdr = input("Reconfirm your option,please")
       if osdr == options2:
-        eval(inputed_options2_handling)
-      else:
-        print("Please check your typing")
+        eval(2_handling)
+      elif osdr == options1:
+        eval(1_handling)
     else:
       print("\"",r,"\"","is not a option!")
 class useless:
